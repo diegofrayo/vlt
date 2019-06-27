@@ -10,12 +10,12 @@ Library to validate types and object schemes
 
 **Yarn**
 ```
-yarn add @diegofrayo/validator --save
+yarn add @diegofrayo/vlt --save
 ```
 
 **NPM**
 ```
-npm install @diegofrayo/validator --save
+npm install @diegofrayo/vlt --save
 ```
 
 
@@ -26,7 +26,7 @@ npm install @diegofrayo/validator --save
 
 - Validate a number
   ```
-  import { vlt } from '@diegofrayo/validator';
+  import { vlt } from '@diegofrayo/vlt';
 
   const rule = vlt()
     .number()
