@@ -99,7 +99,7 @@ const TypesValidator = {
   },
 
   isObject(value) {
-    return typeof value === 'object' && this.isArray(value) === false;
+    return value && typeof value === 'object' && this.isArray(value) === false;
   },
 
   isString(value) {
