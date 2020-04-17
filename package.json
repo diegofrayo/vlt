@@ -18,7 +18,7 @@
   "author": {
     "name": "Diego Rayo",
     "email": "diegofrayo@gmail.com",
-    "url": "https://diegofrayo.netlify.com"
+    "url": "https://diegofrayo.netlify.app"
   },
   "repository": {
     "url": "https://github.com/diegofrayo/vlt.git",
@@ -28,6 +28,7 @@
     "@babel/plugin-proposal-class-properties": "^7.4.4",
     "@babel/preset-env": "^7.4.5",
     "@diegofrayo/eslint-config": "^1.0.1",
+    "@hot-loader/react-dom": "^16.8.6",
     "babel-jest": "^24.8.0",
     "eslint": "latest",
     "husky": "^1.3.1",
@@ -35,6 +36,7 @@
     "lint-staged": "^8.1.5",
     "microbundle": "^0.11.0",
     "prettier": "^1.16.4",
+    "react-hot-loader": "^4.12.10",
     "regenerator-runtime": "^0.13.2"
   },
   "scripts": {
